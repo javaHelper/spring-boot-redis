@@ -1,0 +1,14 @@
+---
+spring:
+  redis:
+    ip: 127.0.0.1
+    port: 6379
+    password:
+# Shows application health information on ACTUATOR endpoints
+endpoints:
+  enabled: false
+  health.enabled: true
+
+# Port used to initialize embedded container
+server:
+  port: 9081
